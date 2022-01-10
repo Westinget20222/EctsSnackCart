@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+
+html {
+    background: white;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+}
+
+body {
+    background: url('ectsbg.gif');
+    background-color: white;
+    display: -webkit-flex;
+    display: flex;
+    webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    width: auto;
+}
+
+img{
+    width: 500px;
+}
+
+.FoodItem{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+form {
+    position: relative;
+    margin: auto;
+    webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+
+@media only screen and (max-width: 640px) {
+
+    img{
+        width: 260px;
+    }
+
+    #navicon{
+        display: block;
+    }
+}
